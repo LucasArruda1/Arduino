@@ -1,7 +1,18 @@
 /*                   INTERFACE SERIAL - ARDUINO - PC
 
-    Aplication example. 
+    Aplication example: Commands to built-in arduino UNO LED.
 
+    On terminal:
+
+    tempo=500. Configura o tempo de 500ms para o LED piscar
+    acende. Liga o LED
+    apaga. Apaga o LED
+    pisca. Pisca o LED no tempo configurado. 
+
+    Utilizado com PlataformIO. 
+
+    Author: Lucas Arruda. 
+    Date: 24/07/2019
  */
 
 #include <Arduino.h>
